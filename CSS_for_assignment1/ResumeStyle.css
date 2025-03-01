@@ -268,7 +268,7 @@ html {
     .btn { padding: 8px 16px; }
     .About h1, .Education h1, .Projects h2 { font-size: 28px; }
     .About-content p, .Degree, .certificates, .awards { font-size: 14px; }
-    .project-img { height: 150px; }
+    .project-img {max-width: 200px; }
     .project p { font-size: 12px; }
     .footer { padding: 15px 5%; }
     .contact-us h4, .icon-link { font-size: 20px; }
