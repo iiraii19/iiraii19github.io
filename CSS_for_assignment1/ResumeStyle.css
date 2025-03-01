@@ -260,10 +260,10 @@ html {
 
 @media (max-width: 576px) {
     .header { padding: 10px 5%; }
-    .logoName { font-size: 20px; }
+    .logoName { font-size: 20px;text-align: center; }
     .navBar a { font-size: 14px; margin-left: 10px; }
     .Home { padding: 80px 5% 30px; }
-    .Logo-Img { width: 150px; height: 150px; }
+    .Logo-Img { width: 150px; height: 150px; margin: 20px 0; }
     .Home-content h1 { font-size: 36px; }
     .Home-content h4, .btn { font-size: 16px; }
     .btn { padding: 8px 16px; }
