@@ -5,7 +5,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-     scroll-padding-top: 80px;
+    scroll-padding-top: 80px;
 }
 
 .header {
@@ -194,6 +194,37 @@ html {
     text-align: left;
 }
 
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background-color: #347888;
+    color: #e7e7ea;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #2a6170;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-link i {
+    font-size: 18px;
+}
+
 .footer {
     background: #347888;
     padding: 20px 10%;
@@ -235,8 +266,6 @@ html {
     color: #e7e7ea;
 }
 
-
-/* Responsive Design for (576px, 768px, and 992px) */
 @media (max-width: 992px) {
     .header { width: 100%; padding: 15px 5%; }
     .logoName { font-size: 22px; left: 0; }
